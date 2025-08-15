@@ -105,6 +105,7 @@ function NavBar() {
       </div>
 
       {/* Mobile Navigation */}
+      {/* Mobile Navigation */}
       <AnimatePresence>
         {navOpen && (
           <motion.div
@@ -114,6 +115,18 @@ function NavBar() {
             transition={{ type: "spring", damping: 25 }}
             className="md:hidden fixed inset-0 bg-gray-900/95 backdrop-blur-sm z-40 pt-20"
           >
+            {/* Close Button in mobile menu */}
+            <div className="absolute top-4 right-4">
+              <motion.button
+                onClick={closeNav}
+                whileTap={{ scale: 0.9 }}
+                className="p-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#00df9a]"
+                aria-label="Close navigation"
+              >
+                <AiOutlineClose className="w-6 h-6 text-white" />
+              </motion.button>
+            </div>
+
             <div className="container mx-auto px-4">
               <ul className="flex flex-col space-y-4">
                 {navItems.map((item, index) => (
