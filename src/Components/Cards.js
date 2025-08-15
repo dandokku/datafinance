@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FiCheck, FiZap, FiUser, FiDatabase, FiSend } from 'react-icons/fi';
+import { FiCheck, FiUser, FiDatabase, FiSend } from 'react-icons/fi';
 import Ball from '../images/Fractal_Cube_7__R.png';
 
 const Cards = () => {
