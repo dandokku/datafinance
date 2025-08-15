@@ -12,8 +12,8 @@ function App() {
       <NavBar />
       <Hero />
       <Analytics />
-      <Newsletter />
       <Cards />
+      <Newsletter />
       <Footer />
     </div>
     
