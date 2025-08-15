@@ -134,37 +134,6 @@ const Hero = () => {
         </motion.div>
       </div>
 
-      {/* Scroll indicator */}
-      <motion.div
-        animate={{
-          y: [0, 10, 0],
-          opacity: [0.6, 1, 0.6]
-        }}
-        transition={{
-          duration: 2,
-          repeat: Infinity,
-          ease: "easeInOut"
-        }}
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-gray-400"
-      >
-        <div className="flex flex-col items-center">
-          <span className="block mb-2 text-sm">Scroll Down</span>
-          <svg
-            className="w-5 h-5 animate-bounce"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M19 14l-7 7m0 0l-7-7m7 7V3"
-            />
-          </svg>
-        </div>
-      </motion.div>
     </section>
   );
 };
