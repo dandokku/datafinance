@@ -160,7 +160,7 @@ const Footer = () => {
           viewport={{ once: true }}
         >
           <p className="text-sm text-gray-500">
-            &copy; {new Date().getFullYear()} DataFinance. All rights reserved.
+            &copy; 2023 DataFinance. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="/" onClick={(e) => e.preventDefault()} className="text-sm text-gray-500 hover:text-[#00df9a] transition-colors">
