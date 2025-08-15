@@ -29,10 +29,10 @@ function NavBar() {
 
   const navItems = [
     { name: "Home", path: "/" },
-    { name: "Company", path: "/company" },
-    { name: "Resources", path: "/resources" },
-    { name: "About", path: "/about" },
-    { name: "Contact", path: "/contact" },
+    { name: "Company", path: "/" },
+    { name: "Resources", path: "/" },
+    { name: "About", path: "/" },
+    { name: "Contact", path: "/" },
   ];
 
   return (

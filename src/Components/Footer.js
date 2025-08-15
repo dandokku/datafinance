@@ -14,48 +14,48 @@ const Footer = () => {
     {
       title: "Solutions",
       links: [
-        { name: "Analytics", url: "#" },
-        { name: "Marketing", url: "#" },
-        { name: "Commerce", url: "#" },
-        { name: "Insights", url: "#" }
+        { name: "Analytics", url: "/" },
+        { name: "Marketing", url: "/" },
+        { name: "Commerce", url: "/" },
+        { name: "Insights", url: "/" }
       ]
     },
     {
       title: "Support",
       links: [
-        { name: "Pricing", url: "#" },
-        { name: "Documentation", url: "#" },
-        { name: "Guides", url: "#" },
-        { name: "API Status", url: "#" }
+        { name: "Pricing", url: "/" },
+        { name: "Documentation", url: "/" },
+        { name: "Guides", url: "/" },
+        { name: "API Status", url: "/" }
       ]
     },
     {
       title: "Company",
       links: [
-        { name: "About", url: "#" },
-        { name: "Blog", url: "#" },
-        { name: "Jobs", url: "#" },
-        { name: "Press", url: "#" }
+        { name: "About", url: "/" },
+        { name: "Blog", url: "/" },
+        { name: "Jobs", url: "/" },
+        { name: "Press", url: "/" }
       ]
     },
     {
       title: "Legal",
       links: [
-        { name: "Claim", url: "#" },
-        { name: "Privacy", url: "#" },
-        { name: "Terms", url: "#" },
-        { name: "Policy", url: "#" }
+        { name: "Claim", url: "/" },
+        { name: "Privacy", url: "/" },
+        { name: "Terms", url: "/" },
+        { name: "Policy", url: "/" }
       ]
     }
   ];
 
   const socialIcons = [
-    { icon: <FaFacebookSquare />, url: "#" },
-    { icon: <FaInstagramSquare />, url: "#" },
-    { icon: <FaTwitterSquare />, url: "#" },
-    { icon: <FaGithubSquare />, url: "#" },
-    { icon: <FaDribbbleSquare />, url: "#" },
-    { icon: <FaLinkedin />, url: "#" }
+    { icon: <FaFacebookSquare />, url: "/" },
+    { icon: <FaInstagramSquare />, url: "/" },
+    { icon: <FaTwitterSquare />, url: "/" },
+    { icon: <FaGithubSquare />, url: "/" },
+    { icon: <FaDribbbleSquare />, url: "/" },
+    { icon: <FaLinkedin />, url: "/" }
   ];
 
   const containerVariants = {
