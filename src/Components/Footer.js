@@ -163,13 +163,13 @@ const Footer = () => {
             &copy; {new Date().getFullYear()} DataFinance. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="text-sm text-gray-500 hover:text-[#00df9a] transition-colors">
+            <a href="/" className="text-sm text-gray-500 hover:text-[#00df9a] transition-colors">
               Privacy Policy
             </a>
-            <a href="#" className="text-sm text-gray-500 hover:text-[#00df9a] transition-colors">
+            <a href="/" className="text-sm text-gray-500 hover:text-[#00df9a] transition-colors">
               Terms of Service
             </a>
-            <a href="#" className="text-sm text-gray-500 hover:text-[#00df9a] transition-colors">
+            <a href="/" className="text-sm text-gray-500 hover:text-[#00df9a] transition-colors">
               Cookies
             </a>
           </div>
